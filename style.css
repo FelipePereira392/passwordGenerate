@@ -21,6 +21,8 @@ body{
 }
 h1{
     padding: 30px;
+    width: 90vw;
+    text-align: center;
     font-size: 2em;
 }
 .sub-container{
