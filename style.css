@@ -20,10 +20,11 @@ body{
     align-items: center;
 }
 h1{
-    padding: 30px;
-    width: 95vw;
+    margin: 30px;
+    width: 75vw;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2em;
+    border:1px solid black;
 }
 .sub-container{
     margin: 15px;
