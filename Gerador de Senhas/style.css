@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bebas+Neue&family=Doto&family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #2D3748;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+h1{
+    padding: 30px;
+    font-size: 3em;
+}
+.sub-container{
+    margin: 15px;
+    
+}
+#checkbox{
+    display: flex;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #424651;
+    border-radius: 10px;
+    width: 70vw;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
+}
+#tamanho{
+    background-color: #00000018;
+    border:2px solid rgb(104, 146, 107);
+    border-radius: 6px;
+    width: 100px;
+    transition: all 0.3s ease-in-out;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+}
+#tamanho:focus{
+    border:2px solid rgb(104, 146, 107);
+    outline: none;
+    background-color: #6b6b6b5d;
+    width: 130px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.801);
+}
+#tamanho::-webkit-inner-spin-button, #tamanho::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0px;
+}
+#tamanhos{
+    font-size: 1.2em;
+}
+#gerar{
+    all: unset;
+    border:2px solid rgb(104, 146, 107);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    transition: all 0.1s ease-in-out;
+}
+#gerar:active{
+    transform: translateY(5px);
+}
+.inputs{
+    border:2px solid rgb(104, 146, 107);
+    padding:6px;
+    border-radius: 2px;
+    margin-right: 4px;
+}
+#senha{
+    width: 430px;
+    border:2px solid rgb(104, 146, 107);
+    border-radius: 10px;
+    padding: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.438);
+}
+#copiar{
+ all:unset;
+
+}
+
+
+
+
