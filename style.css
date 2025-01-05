@@ -38,7 +38,6 @@ h1{
     background-color: #424651;
     border-radius: 10px;
     width: 90vw;
-    height: 200px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.349);
 }
 #tamanho{
@@ -72,6 +71,7 @@ h1{
     padding: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
     transition: all 0.1s ease-in-out;
+    margin-top: 30px;
 }
 #gerar:active{
     transform: translateY(5px);
@@ -83,7 +83,7 @@ h1{
     margin-right: 4px;
 }
 #senha{
-    width: 430px;
+    width: 370px;
     border:2px solid rgb(104, 146, 107);
     border-radius: 10px;
     padding: 6px;
@@ -91,10 +91,11 @@ h1{
     display: flex;
     justify-content: space-between;
     color: rgba(255, 255, 255, 0.438);
+    margin-bottom: 30px;
 }
 #copiar{
  all:unset;
-
+    margin-left:7px;
 }
 
 

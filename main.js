@@ -36,10 +36,13 @@ function gerar(n){
     resultado = ''
     n = parseInt(n)
     if (isNaN(n) || n <= 0 || n>20){
-        alert('Coloque um tamanho válido!')
+        senha.innerHTML = `Put a valid size!`
+      setTimeout(() => {
+        senha.innerHTML = `Password:  `
+      }, 1000)
         return
     }else if(!simbolos.checked && !numeros.checked && !abc.checked && !ABC.checked){
-        alert('Coloque alguma especificação!')
+        alert('Put at least one specification!')
     } else{
         verificar()
         let todosCaracteres = caracteresPermitidos.join('')
