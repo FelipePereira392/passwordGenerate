@@ -79,10 +79,26 @@ h1{
     transform: translateY(5px);
 }
 .inputs{
+    display: none;
+}
+input[type='checkbox'] + label:before{
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
     border:2px solid rgb(104, 146, 107);
-    padding:6px;
-    border-radius: 2px;
-    margin-right: 4px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+input[type='checkbox']:checked + label:before{
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border:2px solid rgb(104, 146, 107);
+    margin-right: 10px;
+    border-radius: 3px;
+    background-color: rgba(184, 255, 175, 0.795);
 }
 #senha{
     width: 80vw;
